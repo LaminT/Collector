@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		474EC1C020B7A9560080E7E0 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EC1BF20B7A9560080E7E0 /* ItemTableViewController.swift */; };
 		47A2D05C20B6517000584203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A2D05B20B6517000584203 /* AppDelegate.swift */; };
-		47A2D05E20B6517000584203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A2D05D20B6517000584203 /* ViewController.swift */; };
 		47A2D06120B6517000584203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A2D05F20B6517000584203 /* Main.storyboard */; };
 		47A2D06420B6517000584203 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47A2D06220B6517000584203 /* Collector.xcdatamodeld */; };
 		47A2D06620B6517300584203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47A2D06520B6517300584203 /* Assets.xcassets */; };
 		47A2D06920B6517300584203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A2D06720B6517300584203 /* LaunchScreen.storyboard */; };
+		47A2D07120B658EA00584203 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A2D07020B658EA00584203 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		474EC1BF20B7A9560080E7E0 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 		47A2D05820B6517000584203 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A2D05B20B6517000584203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47A2D05D20B6517000584203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47A2D06020B6517000584203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47A2D06320B6517000584203 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		47A2D06520B6517300584203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47A2D06820B6517300584203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47A2D06A20B6517300584203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47A2D07020B658EA00584203 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				47A2D05B20B6517000584203 /* AppDelegate.swift */,
-				47A2D05D20B6517000584203 /* ViewController.swift */,
+				474EC1BF20B7A9560080E7E0 /* ItemTableViewController.swift */,
+				47A2D07020B658EA00584203 /* AddItemViewController.swift */,
 				47A2D05F20B6517000584203 /* Main.storyboard */,
 				47A2D06520B6517300584203 /* Assets.xcassets */,
 				47A2D06720B6517300584203 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A2D06420B6517000584203 /* Collector.xcdatamodeld in Sources */,
-				47A2D05E20B6517000584203 /* ViewController.swift in Sources */,
 				47A2D05C20B6517000584203 /* AppDelegate.swift in Sources */,
+				474EC1C020B7A9560080E7E0 /* ItemTableViewController.swift in Sources */,
+				47A2D07120B658EA00584203 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
